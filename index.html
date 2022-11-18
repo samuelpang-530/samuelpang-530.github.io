@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container">
+        <header>
+            <h1>12 Lucky Zodiac</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Animal</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <div id="content">
+
+            <div id="main">
+
+                <h4 id = "show-login-user"></h4>
+                <!-- <div>
+                    <input type="text" id="createUsername">
+                    <input type="text" id="createUserpassword">
+                    <button id="createUser">create user</button>
+                </div> -->
+                <div class="form">
+                    <div class="register-form"><p id="failmessage"></p>
+                    <h2>Register User</h2>
+                    <input type="text" id="input-firstname" placeholder="fist name">
+                    <input type="text" id="input-lastname" placeholder="last name">
+                    <input type="text" id="input-email" placeholder="email">
+                    <input type="password" id="input-password" placeholder="password">
+                    <button id="create-userbutton">create user</button>
+                    <p class="message">Already Registered?<a href="#" id ='not-login-button'>Login</a>
+                    </div>
+                    
+                
+                
+                <div>
+                    
+                    <div class="login-form">
+                        <h2>Login User</h2><p id="fail-login-message"></p>
+                        <input type="text" id="login-email" placeholder="User Email">
+                        <input type="password" id="login-password" placeholder="User Password">
+                        <button id="login-button">login user</button>
+                        <p class="message">Not Registered? <a href="#" id ='not-register-button'>Register</a></p>
+                    </div>
+                </div>
+                
+                
+                </div>
+                
+            
+
+
+
+
+            
+                <div id="drawing-form">
+                <button id="star-button" >Click Here Start Drawing </button>
+                <table id="draw-table" style="display: none">
+                    <tr>
+                        <td>
+                                <div5>
+                                    <label>Full Name</label>
+                                    <input type="text" id="inputName">
+                                </div5>
+                                <div5>
+                                    <label>Age</label>
+                                    <input type="text" id="inputAge">
+                                </div5>
+                                <div5>
+                                    <label>Contact</label>
+                                    <input type="text" id="inputContact">
+                                </div5>
+                                <div5>
+                                    <label>Order Quantity:</label>
+                                    <select name="orderquantity" id="inputQuantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div5>
+                               
+                                
+                                <div5 class="form-action-buttons">
+                                    <button id = "draw-button">submit </button>
+                                    <button id="draw-cancel" onClick="window.location.reload(true)" >cancel</button>
+                                </div5>
+                            
+
+                        </td>
+                    </tr>
+
+                
+
+
+
+
+
+                </table>
+                <div id="drawing-output" style="display: none">
+                    <h4>This is your drawing:</h4>
+                    <p2 id = "output-lastname"></p2>
+                    <p2 id = "output-Animal" ></p2>
+                </br></br>
+                    <button onClick="window.location.reload(true)">Start new draw</button>
+                </div>
+                <table id="edit-table" style="display:none">
+                    <tr>
+                        <td>
+                            <h4>Edit Here</h4>
+                                <div5>
+                                    <label>Full Name</label>
+                                    <input type="text" id="editName">
+                                </div5>
+                                <div5>
+                                    <label>Age</label>
+                                    <input type="text" id="editAge">
+                                </div5>
+                                <div5>
+                                    <label>Contact</label>
+                                    <input type="text" id="editContact">
+                                </div5>
+                                
+                                <div5>
+                                    <label>Order Quantity:</label>
+                                    <select name="orderquantity" id="editQuantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div5>
+                                <div5>
+                                    <p id="editAnimal">
+                                    </p>
+                                    <p id="editId">
+
+                                    </p>
+                                </div5>
+                                
+                                <div5 class="form-action-buttons">
+                                    <button id="edit-button">Submit </button>
+                                    <button id="cancel-button">Cancel</button>
+                                </div5>
+                            
+
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                
+            </div>
+            <div id="nav">
+                <h3>Drawing List</h3>
+                <ul id="an-name-list"></ul>
+
+                
+            </div>
+            
+
+            
+            
+
+        </div>
+        <!-- <div id="footer">
+            <p> Copyright &copy; 2020-<script>document.write(new Date().getFullYear())</script> Samuel Pang All Rights Reserved</p>
+        </div> -->
+        
+      </div>
+    
+
+
+    <script src="app.js"></script>
+ 
+</body>
+</html>

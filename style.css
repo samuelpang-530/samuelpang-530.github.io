@@ -1,0 +1,293 @@
+
+
+
+
+body{
+    background-color: #FAFAD2;
+  }
+  #container {
+    background-color: #FAFAD2;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+
+  #star-button{
+    font-size: 20px;
+  }
+  
+  
+  #content{
+    padding: 10px;
+    height: 110px;
+  }
+  
+  #nav{
+    width: 280px;
+    padding-top: 10px;
+    float:left;
+  
+  }
+  
+  #main{
+    width:500px;
+    float:right;
+    height: 300px;
+  }
+  table{
+    width: 100px;
+    height: 300px;
+  }
+  
+  .drawer-name{
+    font-size: 18px;
+  }
+  .drawing-age{
+    font-size: 18px;
+  }
+  .drawing-animal{
+    font-size: 18px;
+  }
+  
+  
+   p {
+      font-size: 10px;
+   }
+  
+  p2{
+    font-size: 20px;
+    font-weight: bold;
+  }
+   
+  
+  
+  h3{
+     
+     font-size: 15px; 
+     font-weight: bold;
+  }
+   
+   
+   #draw-button {
+       padding: 4px;
+       border: none;
+       border-radius: 6px;
+       cursor: pointer;
+       color: #708090;
+   }
+   
+   button{
+    padding: 2px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       color: #708090;
+       
+   }
+   button:hover {
+    background-color: #A9A9A9;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  h3{
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  
+  #footer{
+    clear: both;
+    text-align: center;
+  }
+  
+  
+  .drawer-name{
+    font-weight:normal;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .drawing-animal{
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .drawing-age{
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .drawing-contact{
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .drawing-quantity{
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* ######nav */
+  header{
+    background-color: #FFA07A;
+    width: 800px;
+    height: 50px;
+  }
+  
+  
+  h1{
+    float: left;
+    color: #444;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 15px 20px;
+    font-size: 30px;
+  }
+  nav{
+    float: right
+    ;
+  }
+  
+  nav ul{
+    margin: 0;
+  
+    list-style: none;
+  }
+  nav li{
+  
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 25px;
+    margin-right: 7px;
+    position: relative;
+  
+  }
+  
+  nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  nav a:hover{
+    color: #000;
+  }
+  
+  
+  header::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  nav a::before {
+    content:  '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+  
+    position: absolute;
+    top:0px;
+    width: 0%;
+  
+    transition: all ease-in-out 200ms;
+  
+  }
+  
+  nav a:hover::before{
+    width: 100%;
+  
+  }
+
+
+
+  #star-button{
+    background-color: #FFA07A;
+    color: #FAFAD2;
+  }
+
+
+
+
+
+
+
+
+
+  /* ........ */
+
+  .login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+
+  }
+  .form{
+    position: relative;
+    z-index: 1;
+    background: rgba(211, 211, 211, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding:45px;
+  }
+
+  .form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background:#f2f2f2;
+    width:100%;
+    border:0;
+    margin: 0 0 15px;
+    padding:15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #FFA07A;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+
+
+  }
+
+  .form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+
+  }
+
+  .form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+
+  }
+  .form .register-form{
+    display:none;
+  }
+
+  
+
+#drawing-form{
+  display: none;
+}
+.login-form .message{
+  color:black;
+}
