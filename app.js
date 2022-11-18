@@ -172,7 +172,7 @@ function loginUserFromServer(loginEmail, loginPass){
             LoadResourceCollection();
         } else if (response.status == '401'){
             var failloginMessage = document.querySelector('#fail-login-message')
-            alert('wrong password');
+            alert('The user name or password is incorrect');
         } 
     });
 
