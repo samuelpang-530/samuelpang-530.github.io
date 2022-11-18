@@ -172,7 +172,7 @@ function loginUserFromServer(loginEmail, loginPass){
             LoadResourceCollection();
         } else if (response.status == '401'){
             var failloginMessage = document.querySelector('#fail-login-message')
-            failloginMessage.innerHTML = ('wrong password')
+            alert('wrong password');
         } 
     });
 
@@ -398,7 +398,6 @@ function LoadResourceCollection(){
             logOutButton.innerHTML = "Sign Out"
             logOutButton.onclick = function(){
             console.log('logout click')
-            location.reload()
             logoutFromServer()
             }
             currentLoginUser.appendChild(logOutButton)
