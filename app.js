@@ -24,6 +24,13 @@ notLoginButton.onclick = function(){
 
 }
 
+var starNewDrawing = document.querySelector("#start-new-draw");
+starNewDrawing.onclick = function(){
+    document.querySelector('#drawing-output').style.display ='none';
+    document.querySelector("#star-button").style.display = 'block';
+    var currentLoginUser = document.querySelector('#show-login-user');
+    currentLoginUser.innerHTML = ("Start New Drawing! ");
+};
 
 
     
